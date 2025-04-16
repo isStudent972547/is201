@@ -1,0 +1,114 @@
+body{
+    background-color: bisque;
+}
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .back-to-top:hover {
+    background-color: #0056b3;
+  }
+  body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:saddlebrown
+  }
+  .mission-intro {
+    background-color: #f0f8ff; 
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px dotted #007bff; 
+    border-radius: 8px;
+  }
+  
+  .mission-highlights {
+    background-color: #fff8dc; 
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px dotted #ff9800; 
+    border-radius: 8px;
+  }
+  
+  .mission-reflection {
+    background-color: #e6ffe6; 
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px dotted #4caf50; 
+    border-radius: 8px;
+  }
+  h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .tableau-container {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+    width: 100%;  /* Make it responsive */
+  }
+  
+  iframe {
+    width: 100%;  /* Scale to fit the container */
+    max-width: 1000px;  /* Limit the max width */
+    height: 500px;  /* Fixed height */
+  }
+  /* Header styling */
+header {
+    background-color: #f8f9fa;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 3em;
+  }
+  
+  header .subheading {
+    font-size: 1.5em;
+    color: #777;
+  }
+  
+  /* Navigation Links */
+  nav {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #007bff;
+  }
+  
+  nav a:hover {
+    color: #0056b3;
+  }
+  
+  
+  
